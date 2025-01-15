@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MySDKNewLib'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of MySDKNewLib.'
 
 # This description is used to generate tags and improve search results.
@@ -31,11 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'MySDKNewLib/Classes/**/*'
-  s.ios.vendored_frameworks = 'DragonMedicalSpeechKit.xcframework', 'MicrosoftCognitiveServicesSpeech.xcframework'
-  s.ios.resource = 'DragonMedicalSpeechKit.bundle'
-  # s.resource_bundles = {
-  #   'MySDKNewLib' => ['MySDKNewLib/Assets/*.png']
-  # }
+#  s.ios.vendored_frameworks = 'DragonMedicalSpeechKit.xcframework', 'MicrosoftCognitiveServicesSpeech.xcframework'
+  s.ios.resource = 'add_package.rb'
+#   s.resource_bundles = {
+#     'DragonMedicalSpeechKit' => ['Bundle/Resources/*', 'Bundle/UI/*']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
