@@ -3,91 +3,81 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12E52138128701B145CC2AD59336107D /* DLNuanceDictationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B33CAC02F64EA0B07183A18C944D8995 /* DLNuanceDictationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F32BACE2D37EA5400EBCED2 /* Dragon-Medical-SpeechKit-iOS in Frameworks */ = {isa = PBXBuildFile; productRef = 5ABF0978917DD861F6AB43CC /* Dragon-Medical-SpeechKit-iOS */; };
 		2791C6C6061AA717D8503AE5676B0554 /* Pods-MySDKNewLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42049BDA104C7B0BA773E0E318108F96 /* Pods-MySDKNewLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279F4D3BB2AE56B371A62ACAB1601389 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		2B44B9C3AEF4992EBA5F1BD7FBC0C002 /* MySDKNewLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC3A8C80A6311D57B7329CE05C31849 /* MySDKNewLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		481AE904408F059E165C7E043F39A5EA /* DragonMedicalSpeechKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 981F400DEBC007BB44C71666D8EA3D76 /* DragonMedicalSpeechKit.bundle */; };
 		50488DCA728BA5EC38D79CFAF38F6154 /* Pods-MySDKNewLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2016FD4E513DB0CD8A105F09850AF0 /* Pods-MySDKNewLib_Tests-dummy.m */; };
+		5F70F756EA84ABFF54DF7C6D182062C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		62ECE62989353F6ECD8B91AF1D99382F /* Pods-MySDKNewLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F3DB9534625801405F05EE8053A431 /* Pods-MySDKNewLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6A3A82BF0FAE0AC94000C63DC2258B90 /* DLNuanceDictationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 656FC9B91A3AC1E01A1F306B9FF60934 /* DLNuanceDictationManager.m */; };
+		6E1A7012672D095D49BFD576D06B498E /* DLNuanceDictationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 087106748ACBAF4C5551E40B2396FBBB /* DLNuanceDictationManager.m */; };
+		7063ECF6D74B459483453ACB20E63F8C /* MySDKNewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFB1496B62CC30AAD034EE50664EB90 /* MySDKNewLib-dummy.m */; };
 		76754D584D1134DED6A45F378DB6D5F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		7C2A30749E44C770C8E03F0B242E6596 /* MySDKNewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C59C8A3E70A1D1A7B13425FE9F60FAA9 /* MySDKNewLib-dummy.m */; };
-		B146FE99E87388F516F3CA61D68FE78F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9962B0F0BBE15D45A8C0617FFAC17189 /* MySDKNewLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A7C7FD7607CAC3AE67CE4F0D91F0A3 /* MySDKNewLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A28A6DDB9EAB8496208153EDE840DFEC /* add_package.rb in Resources */ = {isa = PBXBuildFile; fileRef = 719257B3CA26A682F6D6960070F0FA29 /* add_package.rb */; };
 		C9A6F23377799337181C1007EA8C991B /* Pods-MySDKNewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA72314C00025B05E341F40EFDE79DAE /* Pods-MySDKNewLib_Example-dummy.m */; };
-		F013A0FC9E72CD866796AD050451E342 /* DLNuanceDictationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8958B9BA24552F63C1929260CABEC1D9 /* DLNuanceDictationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B93BEA4C9C8390B1AB05DB8F7D0990C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8B3AF358414D433C79DC12AF1A059B72;
-			remoteInfo = MySDKNewLib;
-		};
-		D4D859B6B071FA62F491DD55EA9B48B0 /* PBXContainerItemProxy */ = {
+		330EF6DC0FB98EF75BA1BC35F051A0D2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2FDDC71CD46E45B6B9473108B3EAE2DB;
 			remoteInfo = "Pods-MySDKNewLib_Example";
 		};
+		7EAC5F94E393781CBB9D85BFA3930969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3AF358414D433C79DC12AF1A059B72;
+			remoteInfo = MySDKNewLib;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		087106748ACBAF4C5551E40B2396FBBB /* DLNuanceDictationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLNuanceDictationManager.m; path = MySDKNewLib/Classes/DLNuanceDictationManager.m; sourceTree = "<group>"; };
 		0F2016FD4E513DB0CD8A105F09850AF0 /* Pods-MySDKNewLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MySDKNewLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		17DB78FE159E04CB945C42D4F36B4629 /* MySDKNewLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MySDKNewLib.debug.xcconfig; sourceTree = "<group>"; };
+		13B5E56852DC1B6941919E70BD1B6BDE /* MySDKNewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MySDKNewLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B70CBC33DCADEAADAD424C2FB9347F0 /* Pods-MySDKNewLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MySDKNewLib_Example-Info.plist"; sourceTree = "<group>"; };
 		1C56E01BDE2FED2DBBBDB7DE420AF54E /* Pods-MySDKNewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MySDKNewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		2582849290D2EAB6B94C2BE78F842D6A /* Pods-MySDKNewLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MySDKNewLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		29AA14071E348627204F9E978A4B20AF /* Pods-MySDKNewLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MySDKNewLib_Example.modulemap"; sourceTree = "<group>"; };
-		2E780C77C0DD5B11130C792D71574AF1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E79AEC4C26BCFCDEB1F42AE795A9D79 /* Pods-MySDKNewLib_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MySDKNewLib_Example"; path = Pods_MySDKNewLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E79AEC4C26BCFCDEB1F42AE795A9D79 /* Pods_MySDKNewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySDKNewLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		42049BDA104C7B0BA773E0E318108F96 /* Pods-MySDKNewLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MySDKNewLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		5120DE165FFC311832B60D64E5EB2051 /* MySDKNewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MySDKNewLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5360E62DA3F2E1F9F7D74C3045BCA2A6 /* Pods-MySDKNewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MySDKNewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		574F5E69B395C068CF81685B447B3263 /* MySDKNewLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MySDKNewLib.release.xcconfig; sourceTree = "<group>"; };
 		59F3DB9534625801405F05EE8053A431 /* Pods-MySDKNewLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MySDKNewLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		656FC9B91A3AC1E01A1F306B9FF60934 /* DLNuanceDictationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DLNuanceDictationManager.m; path = MySDKNewLib/Classes/DLNuanceDictationManager.m; sourceTree = "<group>"; };
-		687EB28C63BB177D2E04C1063A0FA177 /* MySDKNewLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MySDKNewLib.release.xcconfig; sourceTree = "<group>"; };
-		7915067008216FA02BF9AB500BFDD4D4 /* MySDKNewLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MySDKNewLib.modulemap; sourceTree = "<group>"; };
+		719257B3CA26A682F6D6960070F0FA29 /* add_package.rb */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.ruby; path = add_package.rb; sourceTree = "<group>"; };
 		80F2669E837010D205D031D564BF1314 /* Pods-MySDKNewLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MySDKNewLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		87AB307C0B8BDD978655C0075EFB680C /* Pods-MySDKNewLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MySDKNewLib_Tests"; path = Pods_MySDKNewLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		858321354E16C2923C13EDE3E29EA3A3 /* MySDKNewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MySDKNewLib-prefix.pch"; sourceTree = "<group>"; };
+		87AB307C0B8BDD978655C0075EFB680C /* Pods_MySDKNewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySDKNewLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88A225C17EDCB11B240D4C18B3E8496D /* Pods-MySDKNewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MySDKNewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8958B9BA24552F63C1929260CABEC1D9 /* DLNuanceDictationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNuanceDictationManager.h; path = MySDKNewLib/Classes/DLNuanceDictationManager.h; sourceTree = "<group>"; };
 		917C45A8F91E3FC87E09F95F5015C4C5 /* Pods-MySDKNewLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MySDKNewLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		981F400DEBC007BB44C71666D8EA3D76 /* DragonMedicalSpeechKit.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = DragonMedicalSpeechKit.bundle; sourceTree = "<group>"; };
 		99B7283ECC1F4561A8F5A2264CB9E9F7 /* Pods-MySDKNewLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MySDKNewLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D7AC920C9F014942E757E5200F2D901 /* Pods-MySDKNewLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MySDKNewLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACF841082043DD885BE74FC94E5CBB3C /* MicrosoftCognitiveServicesSpeech.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = MicrosoftCognitiveServicesSpeech.xcframework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A030B4A40FE0E1A95563526AA3495C04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A34AF4FCFDA6F035077BB0C45554C701 /* MySDKNewLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MySDKNewLib-Info.plist"; sourceTree = "<group>"; };
+		A3A7C7FD7607CAC3AE67CE4F0D91F0A3 /* MySDKNewLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MySDKNewLib-umbrella.h"; sourceTree = "<group>"; };
+		A6B5328C18138BF44BC407E7C1942B31 /* MySDKNewLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MySDKNewLib.modulemap; sourceTree = "<group>"; };
 		B2802E3976564675FD9F69689B54A8BF /* Pods-MySDKNewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MySDKNewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B28D4DC68B668B40360E69F3C3D8A3E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B33CAC02F64EA0B07183A18C944D8995 /* DLNuanceDictationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DLNuanceDictationManager.h; path = MySDKNewLib/Classes/DLNuanceDictationManager.h; sourceTree = "<group>"; };
 		BA43616A486C73B90CC809E7B7075FC7 /* Pods-MySDKNewLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MySDKNewLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C59C8A3E70A1D1A7B13425FE9F60FAA9 /* MySDKNewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MySDKNewLib-dummy.m"; sourceTree = "<group>"; };
-		CC057CCBEFC3A8F301A576EACC0E9179 /* DragonMedicalSpeechKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = DragonMedicalSpeechKit.xcframework; sourceTree = "<group>"; };
-		D200DDE58870C645AB568601A95E179C /* MySDKNewLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MySDKNewLib-Info.plist"; sourceTree = "<group>"; };
-		D7FDF33C179561F43B27CDBB225AC70F /* MySDKNewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MySDKNewLib-prefix.pch"; sourceTree = "<group>"; };
-		DCC3A8C80A6311D57B7329CE05C31849 /* MySDKNewLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MySDKNewLib-umbrella.h"; sourceTree = "<group>"; };
+		C50C4D7DD105AF718BDA4AC6B7B653F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CAF580B8A064ED424249831B4C9E3652 /* MySDKNewLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MySDKNewLib.debug.xcconfig; sourceTree = "<group>"; };
 		EA72314C00025B05E341F40EFDE79DAE /* Pods-MySDKNewLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MySDKNewLib_Example-dummy.m"; sourceTree = "<group>"; };
-		F173F255913083F11CF8BC3F7E10C091 /* MySDKNewLib-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MySDKNewLib-xcframeworks.sh"; sourceTree = "<group>"; };
-		F9FCD22C4714735B58FFEEA1EE7E8296 /* MySDKNewLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MySDKNewLib; path = MySDKNewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9FCD22C4714735B58FFEEA1EE7E8296 /* MySDKNewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MySDKNewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFB1496B62CC30AAD034EE50664EB90 /* MySDKNewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MySDKNewLib-dummy.m"; sourceTree = "<group>"; };
 		FE941AF150A4141F173C6750E982C07F /* Pods-MySDKNewLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MySDKNewLib_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13B4FD3571D8B0CC238C246EB45F3587 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B146FE99E87388F516F3CA61D68FE78F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C600B10A21443E9E3FDB8FEA70EC052B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -104,34 +94,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DFB4426D9BAC4B4A5C3B39AD5F0C4ADF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F32BACE2D37EA5400EBCED2 /* Dragon-Medical-SpeechKit-iOS in Frameworks */,
+				5F70F756EA84ABFF54DF7C6D182062C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		088149F240503E568683422525ECC8BB /* Development Pods */ = {
+		0AE125BB6AF5298B57127501B52900DF /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AA9D9DB649DFE01CD3FDA57782CAC026 /* MySDKNewLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		0890CF5D7986A4C34B76D8D353C44C0F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CC057CCBEFC3A8F301A576EACC0E9179 /* DragonMedicalSpeechKit.xcframework */,
-				ACF841082043DD885BE74FC94E5CBB3C /* MicrosoftCognitiveServicesSpeech.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		32BF83A770559103CD6B6592921E2678 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B28D4DC68B668B40360E69F3C3D8A3E4 /* LICENSE */,
-				5120DE165FFC311832B60D64E5EB2051 /* MySDKNewLib.podspec */,
-				2E780C77C0DD5B11130C792D71574AF1 /* README.md */,
+				A030B4A40FE0E1A95563526AA3495C04 /* LICENSE */,
+				13B5E56852DC1B6941919E70BD1B6BDE /* MySDKNewLib.podspec */,
+				C50C4D7DD105AF718BDA4AC6B7B653F2 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		35C6A8206ECECB28CCA6AF24A7D58B98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5328C18138BF44BC407E7C1942B31 /* MySDKNewLib.modulemap */,
+				FDFB1496B62CC30AAD034EE50664EB90 /* MySDKNewLib-dummy.m */,
+				A34AF4FCFDA6F035077BB0C45554C701 /* MySDKNewLib-Info.plist */,
+				858321354E16C2923C13EDE3E29EA3A3 /* MySDKNewLib-prefix.pch */,
+				A3A7C7FD7607CAC3AE67CE4F0D91F0A3 /* MySDKNewLib-umbrella.h */,
+				CAF580B8A064ED424249831B4C9E3652 /* MySDKNewLib.debug.xcconfig */,
+				574F5E69B395C068CF81685B447B3263 /* MySDKNewLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MySDKNewLib";
+			sourceTree = "<group>";
+		};
+		52D0CDB2D4F6E2F8224262FD2C2BEA54 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8347E00137F4672657FC7E6E62EFA6D6 /* MySDKNewLib */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7228988652881A1C07F333F14032B951 /* Pods-MySDKNewLib_Example */ = {
@@ -154,9 +159,9 @@
 		767835B55E91FF4ED82A5549C74E0580 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9FCD22C4714735B58FFEEA1EE7E8296 /* MySDKNewLib */,
-				3E79AEC4C26BCFCDEB1F42AE795A9D79 /* Pods-MySDKNewLib_Example */,
-				87AB307C0B8BDD978655C0075EFB680C /* Pods-MySDKNewLib_Tests */,
+				F9FCD22C4714735B58FFEEA1EE7E8296 /* MySDKNewLib.framework */,
+				3E79AEC4C26BCFCDEB1F42AE795A9D79 /* Pods_MySDKNewLib_Example.framework */,
+				87AB307C0B8BDD978655C0075EFB680C /* Pods_MySDKNewLib_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,15 +175,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AA9D9DB649DFE01CD3FDA57782CAC026 /* MySDKNewLib */ = {
+		8347E00137F4672657FC7E6E62EFA6D6 /* MySDKNewLib */ = {
 			isa = PBXGroup;
 			children = (
-				8958B9BA24552F63C1929260CABEC1D9 /* DLNuanceDictationManager.h */,
-				656FC9B91A3AC1E01A1F306B9FF60934 /* DLNuanceDictationManager.m */,
-				981F400DEBC007BB44C71666D8EA3D76 /* DragonMedicalSpeechKit.bundle */,
-				0890CF5D7986A4C34B76D8D353C44C0F /* Frameworks */,
-				32BF83A770559103CD6B6592921E2678 /* Pod */,
-				EE9BF81574E9EBF263074E1187C38D13 /* Support Files */,
+				719257B3CA26A682F6D6960070F0FA29 /* add_package.rb */,
+				B33CAC02F64EA0B07183A18C944D8995 /* DLNuanceDictationManager.h */,
+				087106748ACBAF4C5551E40B2396FBBB /* DLNuanceDictationManager.m */,
+				0AE125BB6AF5298B57127501B52900DF /* Pod */,
+				35C6A8206ECECB28CCA6AF24A7D58B98 /* Support Files */,
 			);
 			name = MySDKNewLib;
 			path = ../..;
@@ -188,7 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				088149F240503E568683422525ECC8BB /* Development Pods */,
+				52D0CDB2D4F6E2F8224262FD2C2BEA54 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				767835B55E91FF4ED82A5549C74E0580 /* Products */,
 				7DA16CC5B5F3B0FAC02C0D1A377AB6ED /* Targets Support Files */,
@@ -209,22 +213,6 @@
 				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		EE9BF81574E9EBF263074E1187C38D13 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7915067008216FA02BF9AB500BFDD4D4 /* MySDKNewLib.modulemap */,
-				C59C8A3E70A1D1A7B13425FE9F60FAA9 /* MySDKNewLib-dummy.m */,
-				D200DDE58870C645AB568601A95E179C /* MySDKNewLib-Info.plist */,
-				D7FDF33C179561F43B27CDBB225AC70F /* MySDKNewLib-prefix.pch */,
-				DCC3A8C80A6311D57B7329CE05C31849 /* MySDKNewLib-umbrella.h */,
-				F173F255913083F11CF8BC3F7E10C091 /* MySDKNewLib-xcframeworks.sh */,
-				17DB78FE159E04CB945C42D4F36B4629 /* MySDKNewLib.debug.xcconfig */,
-				687EB28C63BB177D2E04C1063A0FA177 /* MySDKNewLib.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MySDKNewLib";
 			sourceTree = "<group>";
 		};
 		FA08DA170877C8F1F230EB1643366930 /* Pods-MySDKNewLib_Tests */ = {
@@ -254,20 +242,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		622C9EB102836769C721F20545B21855 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12E52138128701B145CC2AD59336107D /* DLNuanceDictationManager.h in Headers */,
+				9962B0F0BBE15D45A8C0617FFAC17189 /* MySDKNewLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		65CEB1CF8E13C6A0B7CAEBA7BF42E0DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				62ECE62989353F6ECD8B91AF1D99382F /* Pods-MySDKNewLib_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CF0E1707D0F0DA1330ED92848F7C2D5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F013A0FC9E72CD866796AD050451E342 /* DLNuanceDictationManager.h in Headers */,
-				2B44B9C3AEF4992EBA5F1BD7FBC0C002 /* MySDKNewLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +274,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				9A2FCAD929FE30C6F6BFFCF4FDED84EC /* PBXTargetDependency */,
+				F37B738EB361BC641054E686E8CFE8F8 /* PBXTargetDependency */,
 			);
 			name = "Pods-MySDKNewLib_Example";
 			productName = Pods_MySDKNewLib_Example;
-			productReference = 3E79AEC4C26BCFCDEB1F42AE795A9D79 /* Pods-MySDKNewLib_Example */;
+			productReference = 3E79AEC4C26BCFCDEB1F42AE795A9D79 /* Pods_MySDKNewLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		7525B5B4F562E17BC35537582B343E33 /* Pods-MySDKNewLib_Tests */ = {
@@ -305,30 +293,32 @@
 			buildRules = (
 			);
 			dependencies = (
-				BA1E18EF1D60797A8B7C17448C2B775F /* PBXTargetDependency */,
+				77CBFECB865453D971BB04934081B4AC /* PBXTargetDependency */,
 			);
 			name = "Pods-MySDKNewLib_Tests";
 			productName = Pods_MySDKNewLib_Tests;
-			productReference = 87AB307C0B8BDD978655C0075EFB680C /* Pods-MySDKNewLib_Tests */;
+			productReference = 87AB307C0B8BDD978655C0075EFB680C /* Pods_MySDKNewLib_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		8B3AF358414D433C79DC12AF1A059B72 /* MySDKNewLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 73440C8C3CA5A1C566B9D706AC501F1A /* Build configuration list for PBXNativeTarget "MySDKNewLib" */;
+			buildConfigurationList = 07260AA9E4E13118414D54F2121FEB67 /* Build configuration list for PBXNativeTarget "MySDKNewLib" */;
 			buildPhases = (
-				7CF0E1707D0F0DA1330ED92848F7C2D5 /* Headers */,
-				B6D47CDEE72754B525B504A5308481B1 /* [CP] Copy XCFrameworks */,
-				3824074212E93959EC8456578D790826 /* Sources */,
-				13B4FD3571D8B0CC238C246EB45F3587 /* Frameworks */,
-				569FA0E4761762545C9C7F38CE50A360 /* Resources */,
+				622C9EB102836769C721F20545B21855 /* Headers */,
+				43FBEC74DA33DC7CFBA619A63578BAA8 /* Sources */,
+				DFB4426D9BAC4B4A5C3B39AD5F0C4ADF /* Frameworks */,
+				C82E56A29A0E59031220304D8FB28672 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = MySDKNewLib;
+			packageProductDependencies = (
+				5ABF0978917DD861F6AB43CC /* Dragon-Medical-SpeechKit-iOS */,
+			);
 			productName = MySDKNewLib;
-			productReference = F9FCD22C4714735B58FFEEA1EE7E8296 /* MySDKNewLib */;
+			productReference = F9FCD22C4714735B58FFEEA1EE7E8296 /* MySDKNewLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -349,8 +339,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
-			preferredProjectObjectVersion = 77;
+			packageReferences = (
+				355146A5917277F5C517E421 /* XCRemoteSwiftPackageReference "Dragon-Medical-SpeechKit-iOS" */,
+			);
 			productRefGroup = 767835B55E91FF4ED82A5549C74E0580 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -370,14 +361,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		569FA0E4761762545C9C7F38CE50A360 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				481AE904408F059E165C7E043F39A5EA /* DragonMedicalSpeechKit.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AC6266116D0DBF3F4F781F72BC33513C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -385,30 +368,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B6D47CDEE72754B525B504A5308481B1 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
+		C82E56A29A0E59031220304D8FB28672 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/MySDKNewLib/MySDKNewLib-xcframeworks.sh",
-				"${PODS_ROOT}/../../DragonMedicalSpeechKit.xcframework",
-				"${PODS_ROOT}/../../MicrosoftCognitiveServicesSpeech.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MySDKNewLib/DragonMedicalSpeechKit.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MySDKNewLib/MicrosoftCognitiveServicesSpeech.framework",
+				A28A6DDB9EAB8496208153EDE840DFEC /* add_package.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/MySDKNewLib/MySDKNewLib-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
-/* End PBXShellScriptBuildPhase section */
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		22492539259CF1B1968005BEB294B702 /* Sources */ = {
@@ -419,12 +387,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3824074212E93959EC8456578D790826 /* Sources */ = {
+		43FBEC74DA33DC7CFBA619A63578BAA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A3A82BF0FAE0AC94000C63DC2258B90 /* DLNuanceDictationManager.m in Sources */,
-				7C2A30749E44C770C8E03F0B242E6596 /* MySDKNewLib-dummy.m in Sources */,
+				6E1A7012672D095D49BFD576D06B498E /* DLNuanceDictationManager.m in Sources */,
+				7063ECF6D74B459483453ACB20E63F8C /* MySDKNewLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,17 +407,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A2FCAD929FE30C6F6BFFCF4FDED84EC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MySDKNewLib;
-			target = 8B3AF358414D433C79DC12AF1A059B72 /* MySDKNewLib */;
-			targetProxy = B93BEA4C9C8390B1AB05DB8F7D0990C5 /* PBXContainerItemProxy */;
-		};
-		BA1E18EF1D60797A8B7C17448C2B775F /* PBXTargetDependency */ = {
+		77CBFECB865453D971BB04934081B4AC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MySDKNewLib_Example";
 			target = 2FDDC71CD46E45B6B9473108B3EAE2DB /* Pods-MySDKNewLib_Example */;
-			targetProxy = D4D859B6B071FA62F491DD55EA9B48B0 /* PBXContainerItemProxy */;
+			targetProxy = 330EF6DC0FB98EF75BA1BC35F051A0D2 /* PBXContainerItemProxy */;
+		};
+		F37B738EB361BC641054E686E8CFE8F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MySDKNewLib;
+			target = 8B3AF358414D433C79DC12AF1A059B72 /* MySDKNewLib */;
+			targetProxy = 7EAC5F94E393781CBB9D85BFA3930969 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -516,9 +484,9 @@
 			};
 			name = Release;
 		};
-		45FECCCC1B5E18B270916A47479EFDA5 /* Release */ = {
+		5368963D57F3D358B290A5DB18CF20C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 687EB28C63BB177D2E04C1063A0FA177 /* MySDKNewLib.release.xcconfig */;
+			baseConfigurationReference = CAF580B8A064ED424249831B4C9E3652 /* MySDKNewLib.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -537,44 +505,11 @@
 				INFOPLIST_FILE = "Target Support Files/MySDKNewLib/MySDKNewLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MySDKNewLib/MySDKNewLib.modulemap";
-				PRODUCT_MODULE_NAME = MySDKNewLib;
-				PRODUCT_NAME = MySDKNewLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6A0047D14639127CEA289404F3273557 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17DB78FE159E04CB945C42D4F36B4629 /* MySDKNewLib.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/MySDKNewLib/MySDKNewLib-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/MySDKNewLib/MySDKNewLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MODULEMAP_FILE = "Target Support Files/MySDKNewLib/MySDKNewLib.modulemap";
 				PRODUCT_MODULE_NAME = MySDKNewLib;
 				PRODUCT_NAME = MySDKNewLib;
@@ -609,7 +544,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MySDKNewLib_Example/Pods-MySDKNewLib_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MySDKNewLib_Example/Pods-MySDKNewLib_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -646,7 +585,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MySDKNewLib_Example/Pods-MySDKNewLib_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MySDKNewLib_Example/Pods-MySDKNewLib_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -661,6 +604,47 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		9C832AFAF681734DC1FC7611BF78A45E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574F5E69B395C068CF81685B447B3263 /* MySDKNewLib.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/MySDKNewLib/MySDKNewLib-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/MySDKNewLib/MySDKNewLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MySDKNewLib/MySDKNewLib.modulemap";
+				PRODUCT_MODULE_NAME = MySDKNewLib;
+				PRODUCT_NAME = MySDKNewLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		B11956F36957518F4DEB3029127B6641 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -682,7 +666,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MySDKNewLib_Tests/Pods-MySDKNewLib_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MySDKNewLib_Tests/Pods-MySDKNewLib_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -718,7 +706,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MySDKNewLib_Tests/Pods-MySDKNewLib_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MySDKNewLib_Tests/Pods-MySDKNewLib_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -804,20 +796,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07260AA9E4E13118414D54F2121FEB67 /* Build configuration list for PBXNativeTarget "MySDKNewLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5368963D57F3D358B290A5DB18CF20C4 /* Debug */,
+				9C832AFAF681734DC1FC7611BF78A45E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
 				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		73440C8C3CA5A1C566B9D706AC501F1A /* Build configuration list for PBXNativeTarget "MySDKNewLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6A0047D14639127CEA289404F3273557 /* Debug */,
-				45FECCCC1B5E18B270916A47479EFDA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -841,6 +833,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		355146A5917277F5C517E421 /* XCRemoteSwiftPackageReference "Dragon-Medical-SpeechKit-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nuance-communications/Dragon-Medical-SpeechKit-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.1.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5ABF0978917DD861F6AB43CC /* Dragon-Medical-SpeechKit-iOS */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 355146A5917277F5C517E421 /* XCRemoteSwiftPackageReference "Dragon-Medical-SpeechKit-iOS" */;
+			productName = "Dragon-Medical-SpeechKit-iOS";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

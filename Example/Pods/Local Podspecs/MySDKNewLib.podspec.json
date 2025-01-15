@@ -1,29 +1,25 @@
 {
   "name": "MySDKNewLib",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "summary": "A short description of MySDKNewLib.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/klolage/MySDKNewLib",
+  "homepage": "https://github.com/KrishnaRLolage/MySDKNewLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "klolage": "krishna.lolage@microsoft.com"
+    "KrishnaRLolage": "krish.lolage@gmail.com"
   },
   "source": {
-    "git": "https://github.com/klolage/MySDKNewLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/KrishnaRLolage/MySDKNewLib.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "10.0"
   },
   "source_files": "MySDKNewLib/Classes/**/*",
   "ios": {
-    "vendored_frameworks": [
-      "DragonMedicalSpeechKit.xcframework",
-      "MicrosoftCognitiveServicesSpeech.xcframework"
-    ],
-    "resources": "DragonMedicalSpeechKit.bundle"
+    "resources": "add_package.rb"
   }
 }

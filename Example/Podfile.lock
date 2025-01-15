@@ -1,5 +1,5 @@
 PODS:
-  - MySDKNewLib (0.1.0)
+  - MySDKNewLib (0.0.1)
 
 DEPENDENCIES:
   - MySDKNewLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MySDKNewLib: 9c79102483ad1278eb3d140f68d0398cfe86e382
+  MySDKNewLib: 8ae724438f20b6ba119b630f6eb24f710ebd671e
 
 PODFILE CHECKSUM: 20697ccfb9c8fbad97b4829fa27ac5b722b4b579
 

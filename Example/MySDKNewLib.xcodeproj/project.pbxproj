@@ -303,12 +303,10 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MySDKNewLib_Example/Pods-MySDKNewLib_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MySDKNewLib/MySDKNewLib.framework",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MySDKNewLib/MicrosoftCognitiveServicesSpeech.framework/MicrosoftCognitiveServicesSpeech",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MySDKNewLib.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MicrosoftCognitiveServicesSpeech.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
