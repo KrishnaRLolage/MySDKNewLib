@@ -1,0 +1,6 @@
+framework module MySDKNewLib {
+  umbrella header "MySDKNewLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

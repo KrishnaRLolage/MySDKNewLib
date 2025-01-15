@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'MySDKNewLib/Classes/**/*'
-  
+  s.ios.vendored_frameworks = 'DragonMedicalSpeechKit.xcframework', 'MicrosoftCognitiveServicesSpeech.xcframework'
+  s.ios.resource = 'DragonMedicalSpeechKit.bundle'
   # s.resource_bundles = {
   #   'MySDKNewLib' => ['MySDKNewLib/Assets/*.png']
   # }

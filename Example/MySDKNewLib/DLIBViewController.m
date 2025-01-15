@@ -7,8 +7,10 @@
 //
 
 #import "DLIBViewController.h"
+#import <MySDKNewLib/DLNuanceDictationManager.h>
 
 @interface DLIBViewController ()
+@property (nonatomic, strong)DLNuanceDictationManager *dictationManager;
 
 @end
 
@@ -18,6 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.dictationManager = [[DLNuanceDictationManager alloc] init];
+    [self.dictationManager openSession];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [self.dictationManager initVUI:self.view];
 }
 
 - (void)didReceiveMemoryWarning

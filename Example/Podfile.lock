@@ -1,0 +1,16 @@
+PODS:
+  - MySDKNewLib (0.1.0)
+
+DEPENDENCIES:
+  - MySDKNewLib (from `../`)
+
+EXTERNAL SOURCES:
+  MySDKNewLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MySDKNewLib: 9c79102483ad1278eb3d140f68d0398cfe86e382
+
+PODFILE CHECKSUM: 20697ccfb9c8fbad97b4829fa27ac5b722b4b579
+
+COCOAPODS: 1.16.2
